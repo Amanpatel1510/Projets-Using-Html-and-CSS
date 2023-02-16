@@ -1,0 +1,141 @@
+*{
+    background-color: rgb(206, 238, 230);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+/* body */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%vh;
+    width: 100%vw;
+    padding: 0 70px;
+}
+/* header */
+
+/* navigation bar */
+nav{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+/* nav left logo */
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+  font-weight: bold;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+ul{display: flex;
+   gap:25px;
+   flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Kanit', sans-serif;
+color:darkblue;
+}
+.search{
+    display: flex;
+    gap: 30px;
+  
+}
+
+input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.right-section{display: flex;
+ flex-direction:column;
+gap: 20px;
+    align-items: center;
+}
+
+h1 span{
+    font-weight:200px;
+    font-size:60px;
+   color: rgb(105, 199, 163);
+   background-color: rgb(255, 255, 255);
+}
+
+.paragraph p {
+    font-size:20px;
+    
+}
+
+span{
+    color: rgb(105, 199, 163);
+    font-weight: bold;
+    font-size: larger;
+}
+.button{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+img{
+    border-radius: 150px;
+}
+
+button:hover{
+    background-color: black;
+    color: azure;
+    cursor:pointer;
+    
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    box-sizing: border-box;
+}
+.right-footer{
+    display: flex;
+    flex-direction: row;
+    padding-top:50px;
+ 
+}
+i:hover{
+   
+    cursor: pointer;
+    font-size:50px;
+}
