@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* body */
+body{
+    background-color: rgb(177, 177, 177);
+}
+/* anchor tag  */
+a{
+    text-decoration: none;
+
+}
+
+/* for list tag */
+li{
+    list-style: none;
+}
+/* hover on buttons */
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* header for back ground image */
+header{
+    background-image:url("./photo/mainBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  position: relative;
+}
+/* nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+height: 80px;
+    border-bottom: 2px solid white;
+    margin: 0px 40px 0px 40px;
+}
+/* logo */
+.logo svg{
+    width: 100px;
+    height: 80px;
+}
+/* nav menu option */
+.nav_menu{  display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-items: center;
+
+}
+
+/* list and anchor tag */
+li a{
+    color: white;
+    font-size: large;
+}
+
+/* header section slogan of company */
+.main_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 50vh;
+    width: 400px;
+    margin: 100px 0px 0px 180px;
+
+}
+/* header section slogan of company h1 */
+.main_bar h1{
+    font-size: 60px;
+    width: max-content;
+}
+/* buttons */
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1f1fc7;
+    color: white;
+    border: none;
+}
+
+/* second section of web page */
+
+/* property discription */
+.discription{
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* properties image */
+.img_hotels{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* all properties section */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card img{
+    width:430px;
+    height: 430px;
+    border-radius: 50px;
+}
+.card-box{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: absolute;
+margin-top: 400px;
+    margin-left: 10px;
+}
+
+/* second properti details */
+.img_hotels .card:nth-child(2){
+    margin-top: 50px;
+}
+/* third properti details */
+.img_hotels .card:nth-child(3){
+    margin-top: 100px;
+}
+/* fourth properti details */
+.img_hotels .card:nth-child(4){
+    margin-top: 150px;
+}
+/* fifth properti details */
+.img_hotels .card:nth-child(5){
+    margin-top: 50px;
+}
+/* sixth properti details */
+.img_hotels .card:nth-child(6){
+    margin-top: 0px;
+}
+/* sevenproperti details */
+.img_hotels .card:nth-child(7){
+    margin-top: 0px;
+}
+/* eight properti details */
+.img_hotels .card:nth-child(8){
+    margin-top: 100px;
+}
+/* nine properti details */
+.img_hotels .card:nth-child(9){
+    margin-top: 150px;
+}
+
+/* third section of web page */
+.third_left{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+
+    width:fit-content;
+    height: 400px;
+}
+/* left section */
+/* Modern, Trendy, Affordable */
+.third_page{
+    display: flex;
+    flex-direction: row;
+
+}
+/* upper image */
+.third_page img{
+width:425px;
+height: 400px;
+position:absolute; 
+margin-left: 123px;
+margin-top: -20px;
+border-radius: 50px;
+} 
+
+/* left side of left section */
+/* details */
+
+.third_left div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* Modern, Trendy, Affordable */
+h1{
+    font-size: 60px;
+}
+
+/* right section  third page of webpage */
+.third_right{
+    margin-top: 200px;
+    display: flex;
+    flex-direction:row;
+    /* width:1348px; */
+    height: 500px;
+
+}
+
+/* background image */
+.right_img img:nth-child(1){
+    width:805px;
+    height: 550px;
+    margin-LEFT: 30PX;
+}
+
+/* upper image */
+.right_img img:nth-child(2){
+    width:450px;
+height: 400px;
+margin-left: -600px;
+position:absolute; 
+border-radius: 50px;
+}
+/* Unique House for Long Term! */
+/* details */
+.third_right div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 500PX;
+    margin-left: 15PX;
+}
+
+/* blue background */
+/* Subscribe to Our Newsletter */
+.blue_back{
+    width: 1000px;
+    height: 500px;
+    background-color: #3f3ff0;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left:14%;
+}
+/* paragraph details */
+.blue_back p{
+    width:500px;
+
+}
+/* email section */
+.blue_back div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #3938a1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 10px;
+
+}
+/* email input */
+.form input{
+    width: 468px;
+    height: 50px;
+    background: transparent;
+    border: none;
+}
+
+/* footer section */
+.footer{
+    margin: 100px 80px 100px 170px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* lef section  */
+.left{
+
+ column-gap: 50px;
+  
+    width: 400px;
+}
+/* facebook instagram twitter */
+.left img{
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+/* right section */
+.right{
+    display: flex;
+    justify-content: space-around;
+
+    width: 600px;
+   
+}
+
+.right div{
+    line-height: 35px;
+    
+}
+/* location contact legals */
+ul a:nth-child(1){
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+/* color of right section */
+ul a{
+    color: black;
+}
