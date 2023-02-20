@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+body{
+    /* background image */
+    background-image: url("./photo/stethoscope.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* section{
+    background-image: url("./photo/stethoscope.png");
+
+} */
+/* footer section */
+.footer_nav{
+    margin: 20px 170px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu option */
+.footer_nav div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+ width:400px;
+}
+/* logo */
+.logo img{
+    width: 120px;
+    height: 40px;
+}
+/* main section */
+.main{
+    margin-top: 200px;
+    display: flex;
+
+    gap: 247px;
+}
+ /* details section */
+.main_left{
+    width: 500px;
+    margin-left: 100px;
+   
+}
+
+.main_left .img_bottomAngle{
+  margin-left: 480px;
+}
+
+.main_left h1{
+font-size: 60px;
+margin-bottom: 20px;
+}
+/* button */
+.footer_button{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* button color and size */
+.footer_button > button{
+  
+    width: 200px;
+    height: 40px;
+    background-color: #0dc079;;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+}
+/* right box */
+.box{
+    position: absolute;
+    
+}
+/* green back ground */
+.box img{
+    margin-left: 80px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+/* yello background */
+.box img:nth-child(2){
+margin-top: 80px;
+    margin-left:150px;
+    width: 350px;
+    height: 350px;
+
+}
+
+/* doctor image */
+.doctor img{
+    width: 500px;
+    height: 650px;
+    margin-top: -190px;
+    position: absolute;
+}
